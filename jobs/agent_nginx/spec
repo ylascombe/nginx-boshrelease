@@ -1,0 +1,10 @@
+---
+name: agent_nginx
+
+templates:
+  pre-start.sh.erb: bin/pre-start
+
+packages: []
+
+properties: []
+

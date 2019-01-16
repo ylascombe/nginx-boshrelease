@@ -1,0 +1,11 @@
+---
+releases:
+- name: nginx
+  version: 0+dev.1
+  url: git+https://github.com/ylascombe/nginx-boshrelease
+
+addons:
+- name: nginx
+  jobs:
+  - name: agent_nginx
+    release: nginx
